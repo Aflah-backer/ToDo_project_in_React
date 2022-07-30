@@ -1,0 +1,71 @@
+body {
+  /* background-color: rgb(0, 35, 46); */
+  background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701649746.jpg");
+  color: #000;
+}
+
+.App {
+  text-align: center;
+}
+
+.taskBg {
+  background-color: rgb(0, 50, 70);
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position:relative;
+}
+
+.taskBg div {
+  display: flex;
+  align-items: center;
+}
+
+.taskNumber {
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 10, 43);
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskBg .taskText {
+  flex: 1;
+}
+
+.taskBg .done .taskText {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+.taskBg .iconsWrap {
+  position: absolute;
+  top : 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.taskBg .iconsWrap span {
+  display: inline-block;
+  margin: 0px 10px 0 10px;
+  cursor: pointer;
+  color: #00ff55;
+}
+
+.taskBg .iconsWrap span:hover {
+  color: rgb(0, 0, 0);
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
